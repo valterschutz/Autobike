@@ -266,6 +266,12 @@ AddOutputFilter chunkFilter
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Control States.ctl" Type="VI" URL="../../../../Test VI/Control States.ctl"/>
+			<Item Name="Control.ctl" Type="VI" URL="../../../../Test VI/Control.ctl"/>
+			<Item Name="GV.vi" Type="VI" URL="../../../../Test VI/GV.vi"/>
+			<Item Name="libpid_speed.so" Type="Document" URL="libpid_speed.so">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
